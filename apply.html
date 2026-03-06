@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply - CareerConnect</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+<div class="header-top">
+<div class="container">
+<div class="header-info">
+<span>📞 +1 (800) 123-4567</span>
+<span>✉️ support@careerconnect.com</span>
+</div>
+<div class="header-social">
+<a href="#" class="social-icon">f</a>
+<a href="#" class="social-icon">X</a>
+<a href="#" class="social-icon">in</a>
+<a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+</div>
+
+<div class="header-main">
+<div class="container">
+<div class="header-content">
+<div class="logo-section">
+<h1 class="logo">CareerConnect</h1>
+<p class="logo-tagline">Your Gateway to Success</p>
+</div>
+
+<nav class="main-nav">
+<ul>
+<li><a href="index.html" class="nav-link">Home</a></li>
+<li><a href="jobs.html" class="nav-link">Jobs</a></li>
+<li><a href="apply.html" class="nav-link">Apply</a></li>
+<li><a href="contact.html" class="nav-link">Contact</a></li>
+</ul>
+</nav>
+
+<div class="header-actions">
+<button class="login-btn">Sign In</button>
+<button class="signup-btn">Get Started</button>
+</div>
+</div>
+</div>
+</div>
+</header>
+
+
+<section class="form-section">
+<div class="container">
+
+<div class="form-header">
+<h2>Apply for Job</h2>
+<p>Submit your application and take the first step towards your dream career</p>
+</div>
+
+<form class="detailed-form">
+
+<div class="form-section-group">
+<h3>📋 Personal Information</h3>
+
+<div class="form-row">
+<div class="form-group">
+<label>Full Name *</label>
+<input type="text" name="fullname" placeholder="Enter your full name" required>
+</div>
+<div class="form-group">
+<label>Email Address *</label>
+<input type="email" name="email" placeholder="your.email@example.com" required>
+</div>
+</div>
+
+<div class="form-row">
+<div class="form-group">
+<label>Phone Number *</label>
+<input type="tel" name="phone" placeholder="+91 98765 43210" required>
+</div>
+<div class="form-group">
+<label>Current Location *</label>
+<input type="text" name="location" placeholder="City, State" required>
+</div>
+</div>
+</div>
+
+<div class="form-section-group">
+<h3>💼 Professional Details</h3>
+
+<div class="form-row">
+<div class="form-group">
+<label>Applying For (Job Title) *</label>
+<select name="jobposition" required>
+<option value="">Select a position</option>
+<option value="frontend">Frontend Developer</option>
+<option value="java">Java Developer</option>
+<option value="software">Software Engineer</option>
+<option value="data">Data Scientist</option>
+<option value="uxui">UI/UX Designer</option>
+<option value="devops">DevOps Engineer</option>
+<option value="fullstack">Full Stack Developer</option>
+<option value="ba">Business Analyst</option>
+<option value="qa">QA Engineer</option>
+<option value="cloud">Cloud Architect</option>
+<option value="mobile">Mobile App Developer</option>
+<option value="pm">Product Manager</option>
+</select>
+</div>
+<div class="form-group">
+<label>Years of Experience *</label>
+<select name="experience" required>
+<option value="">Select experience level</option>
+<option value="fresher">Fresher (0-1 years)</option>
+<option value="junior">Junior (1-3 years)</option>
+<option value="mid">Mid-level (3-5 years)</option>
+<option value="senior">Senior (5-8 years)</option>
+<option value="lead">Lead/Manager (8+ years)</option>
+</select>
+</div>
+</div>
+
+<div class="form-row">
+<div class="form-group">
+<label>Current Position</label>
+<input type="text" name="position" placeholder="e.g., Senior Developer at Company">
+</div>
+<div class="form-group">
+<label>Current Company</label>
+<input type="text" name="company" placeholder="Company name">
+</div>
+</div>
+
+<div class="form-row">
+<div class="form-group">
+<label>LinkedIn Profile</label>
+<input type="url" name="linkedin" placeholder="https://linkedin.com/in/yourprofile">
+</div>
+<div class="form-group">
+<label>Portfolio/Website</label>
+<input type="url" name="portfolio" placeholder="https://yourportfolio.com">
+</div>
+</div>
+</div>
+
+<div class="form-section-group">
+<h3>📄 Application Documents</h3>
+
+<div class="form-group">
+<label>Upload Resume *</label>
+<div class="file-upload">
+<input type="file" name="resume" accept=".pdf,.doc,.docx" required>
+<span class="file-hint">PDF, DOC, or DOCX (Max 5MB)</span>
+</div>
+</div>
+
+<div class="form-group">
+<label>Cover Letter</label>
+<textarea name="coverletter" placeholder="Tell us why you're a great fit for this role... (Optional)" rows="5"></textarea>
+</div>
+</div>
+
+<div class="form-section-group">
+<h3>💰 Expectations</h3>
+
+<div class="form-row">
+<div class="form-group">
+<label>Expected Salary Range</label>
+<select name="salary">
+<option value="">Select range</option>
+<option value="below5">Below ₹5 LPA</option>
+<option value="5-8">₹5 - ₹8 LPA</option>
+<option value="8-12">₹8 - ₹12 LPA</option>
+<option value="12-15">₹12 - ₹15 LPA</option>
+<option value="15-20">₹15 - ₹20 LPA</option>
+<option value="above20">Above ₹20 LPA</option>
+</select>
+</div>
+<div class="form-group">
+<label>Availability to Join *</label>
+<select name="availability" required>
+<option value="">When can you join?</option>
+<option value="immediate">Immediately</option>
+<option value="15days">15 days</option>
+<option value="1month">1 month</option>
+<option value="2months">2 months</option>
+<option value="3months">3 months</option>
+</select>
+</div>
+</div>
+</div>
+
+<div class="form-actions">
+<button type="submit" class="submit-btn">Submit Application</button>
+<button type="reset" class="reset-btn">Clear Form</button>
+</div>
+
+</form>
+
+</div>
+</section>
+
+
+<footer>
+<div class="footer-content">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-section">
+<h3>About CareerConnect</h3>
+<p>CareerConnect is a modern job portal connecting talented professionals with top companies worldwide. We're committed to helping you find your dream career.</p>
+<div class="footer-social">
+<a href="#" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+<a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+<a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
+<a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+</div>
+</div>
+
+<div class="footer-section">
+<h3>Quick Links</h3>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="jobs.html">Browse Jobs</a></li>
+<li><a href="apply.html">Submit Application</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</div>
+
+<div class="footer-section">
+<h3>For Candidates</h3>
+<ul>
+<li><a href="#">Create Profile</a></li>
+<li><a href="#">Upload Resume</a></li>
+<li><a href="#">Job Alerts</a></li>
+<li><a href="#">Career Advice</a></li>
+</ul>
+</div>
+
+<div class="footer-section">
+<h3>Contact Info</h3>
+<p>
+<strong>Address:</strong><br>
+123 Tech Street, San Francisco, CA 94105
+</p>
+<p>
+<strong>Email:</strong><br>
+support@careerconnect.com
+</p>
+<p>
+<strong>Phone:</strong><br>
++1 (800) 123-4567
+</p>
+</div>
+</div>
+
+<div class="footer-divider"></div>
+
+<div class="footer-bottom">
+<p>&copy; 2026 CareerConnect. All rights reserved.</p>
+<div class="footer-links">
+<a href="#">Privacy Policy</a>
+<a href="#">Terms of Service</a>
+<a href="#">Cookie Policy</a>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
